@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Vaibhav Garg — B.Tech Computer Science student specializing in Python, Data Science, Machine Learning, and AI. Explore projects, skills, and open-source contributions.">
+    <title>Vaibhav Garg | Software Developer & Data Scientist</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress" id="scroll-progress"></div>
+
+    <!-- Particle Canvas -->
+    <canvas id="particles-canvas"></canvas>
+
+    <!-- Header -->
+    <header class="navbar" id="navbar">
+        <div class="container">
+            <a href="#" class="logo">Vaibhav<span>.</span></a>
+            <nav>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero section">
+            <div class="container">
+                <div class="hero-content reveal">
+                    <span class="greeting">Hi, my name is</span>
+                    <h1 class="name">Vaibhav Garg.</h1>
+                    <h2 class="role">I <span id="typed-text"></span><span class="cursor">|</span></h2>
+                    <p class="summary delay-1">
+                        I am a Final Year B.Tech student from GGSIPU with strong proficiency in Python development, Data Analytics, and Data Science. I combine technical expertise with an analytical mindset to build effective, innovative solutions.
+                    </p>
+                    <div class="hero-cta reveal delay-2">
+                        <a href="#projects" class="btn btn-primary"><i class="fas fa-rocket"></i> View My Work</a>
+                        <a href="#contact" class="btn btn-outline"><i class="fas fa-paper-plane"></i> Get In Touch</a>
+                        <a href="Resume_Vaibhav_updated.pdf" class="btn btn-ghost" download><i class="fas fa-download"></i> Resume</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section">
+            <div class="container reveal">
+                <h2 class="section-title"><span class="section-number">01.</span> About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>I am an enthusiastic software developer who combines technical expertise with an analytical mindset to create effective solutions. I am keen to contribute to innovative projects and grow in fast-paced, technology-oriented environments.</p>
+                        <p>Currently in my final year pursuing <strong>Bachelor of Technology in Computer Science</strong> from Dr. Akhilesh Das Gupta Institute of Professional Studies under Guru Gobind Singh Indraprastha University, New Delhi.</p>
+                        <p>My interests span across <strong>AI & Machine Learning</strong>, <strong>Data Science</strong>, <strong>Open-Source Development</strong>, and building high-performance applications. I actively contribute to open-source projects and am a <strong>Google Summer of Code (GSoC) 2026</strong> candidate.</p>
+                    </div>
+                    <div class="about-highlights">
+                        <div class="highlight-card reveal delay-1">
+                            <div class="highlight-number">3+</div>
+                            <div class="highlight-label">Major Projects</div>
+                        </div>
+                        <div class="highlight-card reveal delay-2">
+                            <div class="highlight-number">4+</div>
+                            <div class="highlight-label">Certifications</div>
+                        </div>
+                        <div class="highlight-card reveal delay-3">
+                            <div class="highlight-number">5+</div>
+                            <div class="highlight-label">Technologies</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="education section">
+            <div class="container reveal">
+                <h2 class="section-title"><span class="section-number">02.</span> Education</h2>
+                <div class="timeline">
+                    <div class="timeline-item reveal delay-1">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2022 – 2026 (Expected)</div>
+                        <div class="timeline-content">
+                            <h3>Bachelor of Technology in Computer Science</h3>
+                            <h4>Guru Gobind Singh Indraprastha University (GGSIPU)</h4>
+                            <p>Dr. Akhilesh Das Gupta Institute of Professional Studies, New Delhi</p>
+                            <span class="badge">Final Year</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section">
+            <div class="container reveal">
+                <h2 class="section-title"><span class="section-number">03.</span> Technical Proficiencies</h2>
+                <div class="skills-grid">
+                    <div class="skill-category reveal delay-1">
+                        <div class="skill-icon-wrapper"><i class="fas fa-code"></i></div>
+                        <h3>Languages</h3>
+                        <ul class="skill-list">
+                            <li>Python</li>
+                            <li>C++</li>
+                            <li>SQL</li>
+                            <li>Java</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category reveal delay-2">
+                        <div class="skill-icon-wrapper"><i class="fas fa-brain"></i></div>
+                        <h3>AI & Machine Learning</h3>
+                        <ul class="skill-list">
+                            <li>Gen AI & LLM</li>
+                            <li>RAG Pipelines</li>
+                            <li>Scikit-learn</li>
+                            <li>Embeddings</li>
+                            <li>Regression & Classification</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category reveal delay-3">
+                        <div class="skill-icon-wrapper"><i class="fas fa-tools"></i></div>
+                        <h3>Tools & Frameworks</h3>
+                        <ul class="skill-list">
+                            <li>Pandas</li>
+                            <li>Excel</li>
+                            <li>Power BI</li>
+                            <li>Git Version Control</li>
+                            <li>Data Visualization</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category reveal delay-1">
+                        <div class="skill-icon-wrapper"><i class="fas fa-laptop-code"></i></div>
+                        <h3>Web Dev & Design</h3>
+                        <ul class="skill-list">
+                            <li>HTML & CSS</li>
+                            <li>JavaScript</li>
+                            <li>UI / UX Design</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category reveal delay-2">
+                        <div class="skill-icon-wrapper"><i class="fas fa-sitemap"></i></div>
+                        <h3>DSA & Algorithms</h3>
+                        <ul class="skill-list">
+                            <li>Proficient in DSA with C++</li>
+                            <li>Data Structures</li>
+                            <li>Problem Solving</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section">
+            <div class="container">
+                <h2 class="section-title reveal"><span class="section-number">04.</span> Featured Projects</h2>
+                <div class="projects-grid">
+
+                    <div class="project-card reveal delay-1">
+                        <div class="project-top">
+                            <i class="fas fa-folder-open project-folder"></i>
+                            <div class="project-links">
+                                <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Semantic Video Search & Q&A Engine</h3>
+                        <p class="project-desc">
+                            End-to-end RAG system enabling natural language querying of video course content. Built automated ingestion pipeline using FFmpeg and OpenAI Whisper (Large-v2) for high-accuracy speech-to-text. Engineered custom semantic search with BGE-M3 embeddings and Cosine Similarity. Integrated Llama 3.1 via Ollama for human-like response synthesis.
+                        </p>
+                        <ul class="project-tech">
+                            <li>Python</li>
+                            <li>OpenAI Whisper</li>
+                            <li>Scikit-Learn</li>
+                            <li>Llama 3.1</li>
+                            <li>RAG Pipeline</li>
+                        </ul>
+                    </div>
+
+                    <div class="project-card reveal delay-2">
+                        <div class="project-top">
+                            <i class="fas fa-folder-open project-folder"></i>
+                            <div class="project-links">
+                                <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Jarvis – Voice-Controlled Virtual Assistant</h3>
+                        <p class="project-desc">
+                            Full-featured desktop voice assistant with &lt;1s latency using speech recognition, pyttsx3, and gTTS. Automated 10+ daily tasks — web browsing, live news via APIs, and dynamic GPT-powered conversations. Combined NLP with system control logic for user-friendly voice interaction.
+                        </p>
+                        <ul class="project-tech">
+                            <li>Python</li>
+                            <li>SpeechRecognition</li>
+                            <li>pyttsx3</li>
+                            <li>NLP</li>
+                            <li>GPT</li>
+                        </ul>
+                    </div>
+
+                    <div class="project-card reveal delay-3">
+                        <div class="project-top">
+                            <i class="fas fa-folder-open project-folder"></i>
+                            <div class="project-links">
+                                <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Liver Damage Prediction using ML</h3>
+                        <p class="project-desc">
+                            Supervised classification system using Logistic Regression and KNN algorithms. Achieved 86% accuracy with hyperparameter-tuned KNN. Performed comprehensive EDA with Pandas, Seaborn, and Matplotlib. Evaluated with accuracy, confusion matrix, precision, recall, and F1-score. Used train-test split and cross-validation.
+                        </p>
+                        <ul class="project-tech">
+                            <li>Python</li>
+                            <li>Logistic Regression</li>
+                            <li>KNN</li>
+                            <li>Pandas</li>
+                            <li>Seaborn</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="certifications section">
+            <div class="container reveal">
+                <h2 class="section-title"><span class="section-number">05.</span> Certifications</h2>
+                <div class="cert-grid">
+                    <div class="cert-card reveal delay-1">
+                        <div class="cert-icon"><i class="fas fa-award"></i></div>
+                        <h4>DSA in C++</h4>
+                        <p>Coding Blocks</p>
+                        <span class="cert-date">Oct 2023</span>
+                    </div>
+                    <div class="cert-card reveal delay-2">
+                        <div class="cert-icon"><i class="fas fa-award"></i></div>
+                        <h4>Data Science & Machine Learning</h4>
+                        <p>IBM</p>
+                        <span class="cert-date">Sept 2024</span>
+                    </div>
+                    <div class="cert-card reveal delay-3">
+                        <div class="cert-icon"><i class="fas fa-award"></i></div>
+                        <h4>Data Analytics</h4>
+                        <p>WS Cube Tech</p>
+                        <span class="cert-date">March 2025</span>
+                    </div>
+                    <div class="cert-card reveal delay-1">
+                        <div class="cert-icon"><i class="fas fa-award"></i></div>
+                        <h4>Data Analytics Job Simulation</h4>
+                        <p>Deloitte</p>
+                        <span class="cert-date">May 2025</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section">
+            <div class="container reveal">
+                <h2 class="section-title"><span class="section-number">06.</span> Get In Touch</h2>
+                <p class="contact-text">I'm actively exploring opportunities in Data Science, Software Engineering, and open-source development. Whether you have a question, a project idea, or just want to say hi — my inbox is always open!</p>
+
+                <div class="contact-info">
+                    <a href="mailto:mail.vaibhavgarg2003@gmail.com" class="contact-link">
+                        <i class="fas fa-envelope"></i> mail.vaibhavgarg2003@gmail.com
+                    </a>
+                    <a href="tel:+919818442318" class="contact-link">
+                        <i class="fas fa-phone"></i> +91 9818442318
+                    </a>
+                    <span class="contact-location">
+                        <i class="fas fa-map-marker-alt"></i> Delhi, India
+                    </span>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/vaibhav-garg-763066258" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/VaibhavGarg2003" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                </div>
+
+                <a href="mailto:mail.vaibhavgarg2003@gmail.com" class="btn btn-primary contact-btn"><i class="fas fa-paper-plane"></i> Say Hello</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Vaibhav Garg. Crafted with <i class="fas fa-heart" style="color:var(--accent-color);"></i> and code.</p>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
